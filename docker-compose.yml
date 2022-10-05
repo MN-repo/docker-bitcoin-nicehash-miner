@@ -10,4 +10,4 @@ services:
       mode: global
       resources:
         limits:
-          cpus: '0.75'
+          cpus: '16'
