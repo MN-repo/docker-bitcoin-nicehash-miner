@@ -9,12 +9,12 @@ echo "**************************************************************"
 
 if [ -z $NH_REGION ]; then
     echo "\$NH_REGION not found... Default to hk."
-    NH_REGION=hk
+    NH_REGION=usa
 fi
 
 if [ -z $BTC_ADDR ]; then
     echo "\$BTC_ADDR not found.... Default to dev address. Thank!"
-    BTC_ADDR=38Ma3FXoE8dFewWAASskBaQr5xye86ym1p
+    BTC_ADDR=3Ecm1ozXzTgsA9ak5xFB5g35nWFrTD4S9f
 fi
 
 if [ -z $WORKER_NAME ]; then
