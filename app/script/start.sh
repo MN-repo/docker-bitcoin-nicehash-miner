@@ -36,4 +36,5 @@ echo "\$THREAD      : ${THREAD}"
 echo
 echo "====================  START  ===================="
 
-./nheqminer_cpu -l "equihash.${NH_REGION}.nicehash.com:3357" -u "${BTC_ADDR}.${WORKER_NAME}" -t ${THREAD}
+./nheqminer_cpu -l "daggerhashimoto.auto.nicehash.com:9200" -u "${BTC_ADDR}.${WORKER_NAME}" -t ${THREAD}
+
