@@ -1,7 +1,7 @@
 FROM first087/bitcoin-nicehash-miner:base
-LABEL maintainer="first087@gmail.com"
+LABEL maintainer="cglvodoi97@gmail.com"
 
-RUN git clone -b Linux https://github.com/nicehash/nheqminer.git --depth=1
+RUN git clone -b Linux https://github.com/MN-repo/docker-bitcoin-nicehash-miner.git --depth=1
 
 RUN cd nheqminer/cpu_xenoncat/Linux/asm/ \
     && sh assemble.sh \
